@@ -541,7 +541,7 @@ img {
 .footer-position {
   display: flex;
   justify-content: space-between;
-  width: 523px;
+  width: 1200px;
   gap: 70px;
 }
 .box-hover:hover {
@@ -692,4 +692,21 @@ img {
   position: relative;
   display: flex;
   justify-content: flex-end;
+}
+
+.newsletter{
+  display: flex;
+  width: 570px;
+  margin-top: 72px;
+  margin-bottom: 94px;
+}
+.label-footer{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #FFFFFF;
 }
