@@ -287,7 +287,10 @@
           </main>
           <div class="backdrop is-hidden" data-modal>
             <div class="modal">
-              <button type="button" class="close-btn" data-modal-close><span>X</span></button>
+              <button type="button" class="close-btn" data-modal-close>
+              <svg class="close-btn-icon">
+                <use href="./image/icons.svg#icon-close-black-18dp-2-1" ></use>
+              </svg> </button>
               <p class="p-modal">Zostaw swoje dane w formularzu poniżej</p>
               <form class="form-modal">
                   <label class="label-modal">
@@ -296,8 +299,14 @@
                   <use href="./image/icons.svg#icon-person-black-18dp-1"></use>
                 </svg>
                 <input class="input-modal" type="text">
-                        
               </label>
+            <label class="label-modal">
+               Telefon
+               <svg class="modal-icon2">
+             <use href="./image/icons.svg#icon-phone-black-18dp-1"></use>
+           </svg>
+            <input class="input-modal" type="number">
+                </label>
                         </form>
             </div>
           </div>

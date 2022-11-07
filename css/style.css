@@ -677,8 +677,23 @@ img {
   height: 30px;
   border-radius: 50%;
   cursor: pointer;
-  margin-left: 490px;
+top: 13px;
+right:10px;
   background-color: #ffffff;
+ border: 0px solid rgba(0, 0, 0, 0.1);
+}
+.close-btn-icon {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+    background-color: #ffffff;
+ border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  bottom: 0px;
+    right: auto;
+    top: 0px;
+    left: 0px;
 }
 .modal {
   width: 528px;
@@ -688,7 +703,7 @@ img {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   margin: auto;
-  padding: 8px;
+
   position: relative;
   display: flex;
   align-items: center;
@@ -797,8 +812,8 @@ height: 40px;
 border: 1px solid rgba(33, 33, 33, 0.2);
 border-radius: 4px;
 left: 0px;
-padding-left: 4px;
 position: relative;
+padding: 0;
 }
 
 .modal-icon{
@@ -806,14 +821,26 @@ position: relative;
   height: 18px;
   position: absolute;
  z-index: 2;
- top: 105px;
- left:50px;
+ top: 100px;
+ left: 50px;}
 
 
-
+ .modal-icon2{
+ width: 18px;
+  height: 18px;
+  position: absolute;
+ z-index: 2;
+ top: 170px;
+ left: 50px;
 }
+ 
+
+
+
+
 .form-modal{
   display: flex;
+  flex-direction: column;
 
 }
 .p-modal{
