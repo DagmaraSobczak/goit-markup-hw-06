@@ -287,10 +287,7 @@
           </main>
           <div class="backdrop is-hidden" data-modal>
             <div class="modal">
-              <button type="button" class="close-btn" data-modal-close>
-              <svg class="close-btn-icon">
-                <use href="./image/icons.svg#icon-close-black-18dp-2-1" ></use>
-              </svg> </button>
+              <button type="button" class="close-btn" data-modal-close></button>
               <p class="p-modal">Zostaw swoje dane w formularzu poniżej</p>
               <form class="form-modal">
                   <label class="label-modal">
@@ -305,9 +302,22 @@
                <svg class="modal-icon2">
              <use href="./image/icons.svg#icon-phone-black-18dp-1"></use>
            </svg>
-            <input class="input-modal" type="number">
+            <input class="input-modal" type="tel">
                 </label>
-                        </form>
+                  <label class="label-modal">
+                    Email
+                    <svg class="modal-icon3">
+                      <use href="./image/icons.svg#icon-email-black-18dp-1"></use>
+                    </svg>
+                    <input class="input-modal" type="email">
+                  </label>
+                    <label class="label-modal">
+                      Komentarz
+                         <textarea name="komentarz" placeholder="Wprowadź tekst"></textarea>
+                    </label>
+                  </form>
+                <div class="checkbox">
+                   <p class="checkbox-text">Oświadczam iż akceptuję Regulamin i Politykę Prywatności</p>
             </div>
           </div>
           <script src="./js/modal.js"></script>
