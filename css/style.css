@@ -896,7 +896,22 @@ display: block;
 position: absolute;
 left: 55px;
 top: 437px;
+
 }
+
+.modal-icon5{
+  width: 16px;
+height: 15px;
+fill:rgba(255, 255, 255, 1);
+background-color: rgba(255, 255, 255, 1);
+border-color: #000000;
+position: absolute;
+top: 442px;
+
+
+
+}
+
 .checkbox-text{
   font-family: 'Roboto';
 font-style: normal;
@@ -906,13 +921,48 @@ line-height: 24px;
 letter-spacing: 0.03em;
 color: #757575;
 text-align: center;
-display: inline;
+display: block;
+width: 397px;
+left: 77px;
+margin-top: 20px;
+position: relative;
+
 }
 
-.checkbox-text::before{
-  content: url(../image/Vector.svg);
+.checkbox input{
+  position: relative;
+  cursor: pointer;
+  width: 0;
+  height: 0;
+  opacity: 0;
+}
+.checkbox .checkmark{
+position: absolute;
+width: 16px;
+height: 15px;
+
+transition: 
+}
+
+.checkmark::after{
+  content: "";
   width: 16px;
   height: 15px;
-  padding-right: 8px;
+  position: absolute;
+  opacity:0;
+  transition: opacity .2s;
+  display: block;
+  background-color: rgba(33, 150, 243, 1);
+  fill:rgba(255, 255, 255, 1);
 
+
+}
+
+.checkbox input:checked ~ .checkmark::after{
+opacity: 1;
+}
+
+.checkbox-text-span{
+  color: rgba(33, 150, 243, 1);
+  text-decoration: underline;
 }

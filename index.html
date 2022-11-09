@@ -273,7 +273,7 @@
             </div>
              <div class="newsletter">
                 <h3>ZAPISZ SIĘ DO NEWSLETTERA</h3>
-              <form class="form-footer">
+              <form name="sing-up-to-newsletter" class="form-footer">
                <input class="input-footer" name="email"  type="email" placeholder="E-mail">
               <button class="button-footer" type="submit">Zapisz się
                       <svg class="button-footer-icon">
@@ -289,7 +289,7 @@
             <div class="modal">
               <button type="button" class="close-btn" data-modal-close></button>
               <p class="p-modal">Zostaw swoje dane w formularzu poniżej</p>
-              <form class="form-modal">
+              <form name="order serwis" class="form-modal">
                   <label class="label-modal">
                  Imie
                   <svg class="modal-icon">
@@ -316,9 +316,16 @@
                          <textarea name="komentarz" placeholder="Wprowadź tekst"></textarea>
                     </label>
                   </form>
-                <div class="checkbox">
-                   <p class="checkbox-text">Oświadczam iż akceptuję Regulamin i Politykę Prywatności</p>
-            </div>
+                <label class="checkbox">
+                   <input type="checkbox" >
+                  <span class="checkmark">
+                    <svg class="modal-icon5">
+                      <use href="./image/icons.svg#icon-Vector-1"></use>
+                    </svg>
+                  </span>
+                  
+                  </label>
+                  <p class=".checkbox-text">Oświadczam iż akceptuję <span class="checkbox-text-span">Regulamin</span> i <span class="checkbox-text-span">Politykę Prywatności</span></p>
           </div>
           <script src="./js/modal.js"></script>
   </body>
