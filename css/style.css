@@ -783,6 +783,11 @@ letter-spacing: 0.06em;
 color: #FFFFFF;
 border: 0;
 padding: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 24px;
+cursor: pointer;
 }
 
 .button-footer-icon{
@@ -806,6 +811,7 @@ color: #757575;
  display: flex;
   flex-direction: column;
   margin-bottom: 10px;
+  
 }
 
 .input-modal{
@@ -957,6 +963,7 @@ margin-top: 40px;
 position: absolute;
 width: 16px;
 height: 15px;
+border: 0.5px solid rgba(33, 33, 33, 1);
 top: 18px;
 left: -10px;
     transition-property: opacity;
@@ -969,9 +976,8 @@ left: -10px;
   width: 16px;
   height: 15px;
   position: absolute;
-  opacity:0;
-  transition: opacity;
-  display: block;
+      opacity:0;
+    display: block;
   fill:rgba(255, 255, 255, 1);
   background-color: rgba(33, 150, 243, 1);
  
@@ -1023,11 +1029,13 @@ textarea:focus{
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.label-modal input:hover{
+.label-modal input:hover,
+.label-modal input:focus {
   border-color: rgba(33, 150, 243, 1);
 }
 
-.label-modal:hover svg{
+.label-modal:hover svg,
+.label-modal:focus svg{
   fill: rgba(33, 150, 243, 1);
 }
 
