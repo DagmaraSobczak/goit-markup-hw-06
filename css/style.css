@@ -1030,12 +1030,14 @@ textarea:focus{
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .label-modal input:hover,
-.label-modal input:focus {
+.label-modal input:focus-within {
   border-color: rgba(33, 150, 243, 1);
 }
 
-.label-modal:hover svg,
-.label-modal:focus svg{
+.label-modal:hover svg{
+  fill: rgba(33, 150, 243, 1);
+}
+.label-modal:focus-within svg{
   fill: rgba(33, 150, 243, 1);
 }
 
