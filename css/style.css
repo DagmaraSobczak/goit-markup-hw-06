@@ -836,6 +836,7 @@ border: #2196f3;
   flex-direction: column;
   width: 448px;
   height: 342px;
+
 }
 .p-modal {
   font-family: "Roboto";
@@ -846,12 +847,12 @@ border: #2196f3;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
-  margin-top: 39px;
+  margin-top: 40px;
   margin-bottom: 12px;
 }
 textarea {
   width: 448px;
-  height: 138px;
+  height: 120px;
   border-radius: 4px;
   resize: none;
   padding-top: 12px;
@@ -868,12 +869,12 @@ textarea {
 }
 
 .checkbox {
-  width: 419px;
+  width: 420px;
   height: 24px;
   display: block;
-  position: absolute;
-  left: 55px;
-  top: 442px;
+  position: relative;
+    margin-top: 20px;
+  
 }
 
 .modal-icon5 {
@@ -897,9 +898,12 @@ textarea {
   text-align: center;
   display: block;
   width: 397px;
-  left: 77px;
-  margin-top: 40px;
-}
+   top: 0;
+  left: 0;
+  margin-left: 22px;
+
+  
+  }
 
 .checkbox input {
   position: relative;
@@ -913,8 +917,8 @@ textarea {
   width: 16px;
   height: 15px;
   border: 0.5px solid rgba(33, 33, 33, 1);
-  top: 18px;
-  left: -10px;
+  top: 0;
+  left: 0;
   transition-property: opacity;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
