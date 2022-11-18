@@ -49,7 +49,7 @@ body {
   cursor: pointer;
 }
 
-.web {
+.logo {
   color: #2196f3;
   width: 145px;
   height: 31px;
@@ -67,14 +67,14 @@ body {
   color: #ffffff;
   text-decoration: none;
 }
-.studio-header {
+.logo--header {
   color: #000000;
   text-decoration: none;
   margin-top: 24px;
   margin-bottom: 25px;
 }
 
-.menu {
+.nav__menu {
   font-size: 14px;
   letter-spacing: 0.02em;
   line-height: 1.14;
@@ -89,7 +89,7 @@ body {
   cursor: pointer;
 }
 
-.address-data {
+.contact__link {
   font-size: 14px;
   letter-spacing: 0.02em;
   line-height: 1.14;
@@ -203,7 +203,7 @@ h2 {
   margin: 0 auto;
 }
 
-.header-wrapper {
+.header {
   display: flex;
   align-content: center;
 
@@ -214,7 +214,7 @@ h2 {
 
   margin: 0 auto;
 }
-.nav-wrapper {
+.nav {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -226,7 +226,7 @@ h2 {
   margin-left: 93px;
 }
 
-.header-adres {
+.contact {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -441,7 +441,7 @@ img {
   max-width: 1200px;
   margin: 0 auto;
 }
-.div-header-mail {
+.contact__mail {
   margin-top: 32px;
   margin-bottom: 32px;
   width: 161px;
@@ -455,40 +455,41 @@ img {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.div-header-mail:hover svg {
+.contact__mail:hover svg {
   fill: var(--hover-color);
   cursor: pointer;
 }
-.div-header-mail:hover a {
+.contact__mail:hover a {
   color: #2196f3;
 }
-.div-header-smartphone:hover svg {
+.contact__phone:hover svg {
   fill: var(--hover-color);
   cursor: pointer;
 }
 
-.div-header-smartphone:hover a {
+.contact__phone:hover a {
   color: #2196f3;
 }
-.header-icon-mail {
+
+.contact__icon{
+   gap: 10px;
+  fill: rgba(117, 117, 117, 1);
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.contact__icon--mail {
   width: 16px;
   height: 12px;
-  gap: 10px;
-  fill: rgba(117, 117, 117, 1);
-  transition-property: fill;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
 }
-.header-icon-phone {
+
+.contact__icon--phone {
   width: 10px;
   height: 16px;
-  gap: 10px;
-  fill: rgba(117, 117, 117, 1);
-  transition-property: fill;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+ 
 }
-.div-header-smartphone {
+.contact__phone {
   margin-top: 32px;
   margin-bottom: 32px;
   width: 130px;
@@ -583,11 +584,11 @@ img {
   padding: 27px 90px;
 }
 
-.active-link {
+.nav__menu--active {
   position: relative;
 }
 
-.active-link::after {
+.nav__menu--active::after {
   content: "";
   position: absolute;
   bottom: -32px;
