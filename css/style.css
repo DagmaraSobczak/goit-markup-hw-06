@@ -20,25 +20,31 @@ body {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.button-main-page {
-  width: 200px;
+.button--main-page{
+width: 200px;
   height: 50px;
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  cursor: pointer;
+  font-family: "Roboto";
+  font-style: normal;
   font-weight: 700;
   font-size: 16px;
-  line-height: 1.88;
-  text-align: center;
-  letter-spacing: 0.06em;
   color: #ffffff;
   border: 0;
-  margin-top: 30px;
-  cursor: pointer;
+    letter-spacing: 0.06em;
+    cursor: pointer;
 }
 
-.button:hover {
+.baner_button {
+    line-height: 1.88;
+  text-align: center;
+   margin-top: 30px;
+  
+}
+
+.baner__button:hover {
   background-color: #2196f3;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -251,7 +257,7 @@ figure {
   margin: 0;
 }
 
-.header {
+.baner {
   height: 600px;
   background: #2f303a;
   display: flex;
@@ -738,25 +744,13 @@ border: #2196f3;
 }
 
 .button-footer {
-  width: 200px;
-  height: 50px;
-  background: #2196f3;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
   line-height: 30px;
-  letter-spacing: 0.06em;
-  color: #ffffff;
-  border: 0;
   padding: 0;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 24px;
-  cursor: pointer;
+  
 }
 
 .button-footer-icon {
@@ -945,22 +939,11 @@ textarea {
   text-decoration: underline;
 }
 .button-input {
-  width: 200px;
-  height: 50px;
-  background: #2196f3;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  text-align: center;
-  border: 0px;
-  margin-top: 30px;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
+   text-align: center;
+   margin-top: 30px;
   line-height: 30px;
-  letter-spacing: 0.06em;
-  color: #ffffff;
-  cursor: pointer;
+  
+
 }
 
 textarea:hover,
